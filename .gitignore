@@ -1,0 +1,65 @@
+# .gitignore — Qompass AI language-template (multi-language starter)
+# Keep it broad: delete the sections you don't need per language.
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Rust ---
+target/
+Cargo.lock
+**/*.rs.bk
+
+# --- Go ---
+bin/
+*.exe
+
+# --- Lua ---
+luac.out
+
+# --- Zig ---
+zig-out/
+zig-cache/
+.zig-cache/
+
+# --- Mojo ---
+__mojocache__/
+*.mojopkg
+
+# --- Java / JVM ---
+*.class
+*.jar
+*.war
+.gradle/
+out/
+.idea/
+
+# --- Node (docs tooling) ---
+node_modules/
+
+# --- Nix ---
+result
+result-*
+
+# --- Misc ---
+*.log
+*.tmp
+.env
